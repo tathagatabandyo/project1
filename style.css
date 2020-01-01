@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#ll ul {
+    list-style: none;
+}
+#ll ul li {
+    /* background-color:blue; */
+    background-image: url("https://www.imangoss.net/wp-content/uploads/2017/06/show-fn-key-macbook-pro-min.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+	width: 150px;
+	border: 1px solid white;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	color:white;
+	font-size: 20px; 
+	position: relative;  
+}
+#ll ul li:hover {
+    background-color: green;
+}
+#ll ul ul {
+    display: none;
+}
+#ll ul li:hover > ul {
+    display: block;    
+}
+#ll ul ul ul {
+    margin-left: 150px;
+    top: 0%;
+    position: absolute;
+
+}
+body
+{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+a
+{
+    text-decoration:none;
+}
+a:visited
+{
+    color: white;
+}
+a:hover
+{
+    color: yellow;
+}
+a:link
+{
+    color: white;
+}
